@@ -1,0 +1,158 @@
+body {
+    background-color: #E19898;
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #A2678A;
+}
+
+.navbar > img {
+    margin-left: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.hero {
+    /* background-color: #D4F6FF; */
+    display: flex;
+    height: 100vh;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 50px 10px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+
+}
+
+h3 {
+    font-family: "Nunito", serif;
+    font-size: 40px;
+}
+
+.nameone {
+    display: flex;
+    flex-direction: column;
+}
+
+.pfp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp > img {
+    border-radius: 50%;
+    height: 400px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card > img {
+    float: left;
+    margin-right: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact > p {
+    margin-bottom: 50px;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4D3C77;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    background-color: #3F1D38;
+    cursor: pointer;
+}
+
+hr {
+    border: 1px dashed #3F1D38;
+    width: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A2678A;
+}
+
+@media (max-width: 1080px) {
+    .hero {
+        /* background-color: #D4F6FF; */
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 50px 10px;
+        gap: 30px;
+    }
+
+    .pfp > img {
+        border-radius: 50%;
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 80px;
+        margin: 0;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
